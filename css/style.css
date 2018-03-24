@@ -1,0 +1,30 @@
+/**
+ * The Light Bulb Stylesheet
+ * @author:  Mahdi Abdurrahman
+ * @date:  24 March 2018
+ * @version:  1.0.0.0
+ */
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+body {
+  text-align: center;
+  font-family: arial;
+  font-size: 2.5rem;
+}
+.wrapper {
+   display: block;
+   margin: 20px auto;
+   width: 40%;
+}
+p {
+	padding-top: 50px;
+}
+img {
+   display: block;
+   margin: 20px auto;
+   width: 40%;
+}
