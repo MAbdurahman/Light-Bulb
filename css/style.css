@@ -36,7 +36,11 @@ img {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
-
+     .wrapper {
+   display: block;
+   margin: 20px auto;
+   width: 60%;
+}
     .wrapper p {
         font-size: 1.25rem;
     }
