@@ -18,7 +18,7 @@ body {
 .wrapper {
    display: block;
    margin: 20px auto;
-   width: 40%;
+   width: 55%;
 }
 p {
 	padding-top: 50px;
@@ -27,4 +27,35 @@ img {
    display: block;
    margin: 20px auto;
    width: 40%;
+}
+
+
+/*********************MEDIA QUERIES**********************/
+
+/* ----------- iPhone 4, 5, 5S ----------- */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .wrapper p {
+        font-size: 1.25rem;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7, 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+    .wrapper {
+        display: block;
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .wrapper p {
+        font-size: 1.50rem;
+    }
+
 }
